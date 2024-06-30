@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.3.2](https://github.com/suzuki-shunsuke/gotesplit/compare/v0.3.1...v0.3.2) - 2024-06-30
+- ci: set timeout-minutes using ghatm by @suzuki-shunsuke in https://github.com/suzuki-shunsuke/gotesplit/pull/1
+
 ## [v0.3.1](https://github.com/Songmu/gotesplit/compare/v0.3.0...v0.3.1) - 2023-09-27
 - Add -race to list when it is specified for test options by @shibayu36 in https://github.com/Songmu/gotesplit/pull/26
 
