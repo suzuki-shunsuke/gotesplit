@@ -3,6 +3,7 @@ on: [pull_request]
 
 jobs:
   staticcheck:
+    timeout-minutes: 30
     name: staticcheck
     runs-on: ubuntu-latest
     steps:
@@ -17,6 +18,7 @@ jobs:
           level: warning
 
   misspell:
+    timeout-minutes: 30
     name: misspell
     runs-on: ubuntu-latest
     steps:
@@ -32,6 +34,7 @@ jobs:
           locale: "US"
 
   actionlint:
+    timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
